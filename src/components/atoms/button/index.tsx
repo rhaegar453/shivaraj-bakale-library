@@ -21,7 +21,7 @@ const Button = styled.button<IButton>`
     color: ${({ color }) => color || '#ffffff'};
     border-radius: 5px;
     border: none;
-    font-size: ${({ size = 'default' }) => (size === 'large' || 'full' ? '18px' : '14px')};
+    font-size: ${({ size = 'default' }) => (size === 'large' || size === 'full' ? '16px' : '14px')};
     width: ${({ size }) => (size === 'full' ? '-webkit-fill-available' : 'auto')};
 `;
 

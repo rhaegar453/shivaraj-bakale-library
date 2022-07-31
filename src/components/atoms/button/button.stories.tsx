@@ -26,6 +26,7 @@ const Template:ComponentStory<typeof Button> = (args) => {
   return <Button {...args}>{label}</Button>;
 };
 
-export const Primary = Template.bind({
-  label: 'Primary Button',
-});
+export const Primary = Template.bind({});
+Primary.args = {
+  label: 'Hello World',
+};
