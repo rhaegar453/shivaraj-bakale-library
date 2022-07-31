@@ -8,6 +8,16 @@ export default {
     label: {
       type: 'string',
     },
+    size: {
+      control: 'select',
+      options: ['large', 'default', 'full'],
+    },
+    bgColor: {
+      type: 'string',
+    },
+    color: {
+      type: 'string',
+    },
   },
 } as ComponentMeta<typeof Button>;
 
