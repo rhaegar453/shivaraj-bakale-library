@@ -1,9 +1,3 @@
-import styled from 'styled-components';
-
-const Button = styled.button`
-    padding: 6px 12px;
-    border: none;
-    border-radius: 5px;
-`;
-
-export default Button;
+export * as Button from './components/atoms/button';
+export * as Input from './components/atoms/input';
+export * as Chip from './components/atoms/chip';

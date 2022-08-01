@@ -11,6 +11,7 @@ const Chip = styled.span<IChip>`
     border-radius: 100px;
     font-size: 14px;
     color: white;
+    margin: 8px;
     background-color: ${({ variant = 'primary' }) => colors[variant]};
 `;
 
