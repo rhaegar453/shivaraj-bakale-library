@@ -15,7 +15,7 @@
         "format": "prettier --write \"src/**/*\""
     },
     "types": "dist/typings/index.d.ts",
-    "keywords": [],
+    "keywords": ["hello"],
     "author": "Shivaraj Bakale",
     "license": "ISC",
     "devDependencies": {
